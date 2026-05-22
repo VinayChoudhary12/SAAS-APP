@@ -25,14 +25,17 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
-  res.send('server is live');
-});
 
 app.use('/api/ai', aiRouter);
 app.use('/api/user', userRouter);
 
 connectCloudinary();
+
+app.get('/', (req, res) => {
+  res.send('server is live');
+});
+
+
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
