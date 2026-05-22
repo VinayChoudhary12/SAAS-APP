@@ -1,0 +1,222 @@
+# 🚀 QuickAI – AI Powered SaaS Platform
+
+QuickAI is a full-stack AI-powered SaaS application where users can generate AI content like images, articles, blogs, summaries, background removal, and more using multiple AI APIs.
+
+Users can also publish their creations to a community page where others can like and explore AI-generated content.
+
+---
+
+# 🌐 Live Demo
+
+## 🔗 Backend Live
+https://saas-app-4oq8.vercel.app/
+
+## 🔗 Frontend Project Live
+https://saas-app-aim7.vercel.app/
+
+---
+
+# ✨ Features
+
+- 🔐 Authentication using Clerk
+- 🧠 AI Text Generation
+- 🎨 AI Image Generation
+- 🖼️ Background Removal
+- 📄 PDF/Text Summarization
+- ❤️ Community Likes System
+- 🌍 Public Community Feed
+- ☁️ Cloudinary Image Upload
+- 🗄️ Neon PostgreSQL Database
+- ⚡ Fast & Responsive UI
+- 📱 Fully Responsive Design
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+- Clerk Authentication
+- React Toastify
+- Lucide React Icons
+
+## Backend
+- Node.js
+- Express.js
+- PostgreSQL (Neon DB)
+- Cloudinary
+- Clerk Backend Auth
+- Multer
+- OpenAI API
+- ClipDrop API
+
+## Deployment
+- Vercel
+- Neon Database
+- Cloudinary
+
+---
+
+# 📂 Folder Structure
+
+```bash
+QuickAI-main/
+│
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── context/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── routes/
+│   ├── package.json
+│   └── server.js
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+# ⚙️ Environment Variables
+
+## Frontend `.env`
+
+```env
+VITE_BASE_URL=http://localhost:4000
+VITE_CLERK_PUBLISHABLE_KEY=YOUR_CLERK_PUBLISHABLE_KEY
+```
+
+---
+
+## Backend `.env`
+
+```env
+PORT=4000
+
+DATABASE_URL=YOUR_NEON_DATABASE_URL
+
+CLERK_SECRET_KEY=YOUR_CLERK_SECRET_KEY
+
+CLOUDINARY_CLOUD_NAME=YOUR_CLOUDINARY_NAME
+CLOUDINARY_API_KEY=YOUR_CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET=YOUR_CLOUDINARY_API_SECRET
+
+OPEN_AI_KEY=YOUR_OPENAI_API_KEY
+
+CLIP_DROP_API_KEY=YOUR_CLIPDROP_API_KEY
+```
+
+---
+
+# 🚀 Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/yourusername/QuickAI.git
+```
+
+---
+
+## 2️⃣ Install Frontend Dependencies
+
+```bash
+cd client
+npm install
+```
+
+---
+
+## 3️⃣ Install Backend Dependencies
+
+```bash
+cd ../server
+npm install
+```
+
+---
+
+## 4️⃣ Run Frontend
+
+```bash
+cd client
+npm run dev
+```
+
+---
+
+## 5️⃣ Run Backend
+
+```bash
+cd server
+npm run dev
+```
+
+---
+
+# 📡 API Features
+
+- AI Article Generator
+- AI Blog Generator
+- AI Image Generator
+- Background Remover
+- Community Post System
+- Like & Publish System
+
+---
+
+# ❤️ Community Features
+
+Users can:
+
+- Publish their AI creations
+- Explore creations from others
+- Like & unlike posts
+- View community gallery
+
+---
+
+# 🧠 Learning Outcomes
+
+Through this project I learned:
+
+- Full Stack Development
+- REST API Integration
+- Authentication & Authorization
+- AI API Handling
+- Cloudinary Image Upload
+- PostgreSQL Database Management
+- Deployment on Vercel
+- Debugging Production Errors
+- Responsive UI Design
+
+# 👨‍💻 Author
+
+## Vinay
+---
+
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
